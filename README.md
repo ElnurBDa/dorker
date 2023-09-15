@@ -1,14 +1,15 @@
-# Expo Router Example
+# Some info
+That is react native app that wrote. It can be used for google dorking. 
+You can type domain, select file extensions, and optionally add additional parameters and generate a google dorks one liner. 
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+Example of output: site:yourlovelyuni.edu.az & (ext:txt | ext:pdf) & password
 
-## 🚀 How to use
+It was done in educational purposes. 
 
-```sh
-npx create-expo-app -e with-router
+# How to use
+```
+npm install
+npm start
 ```
 
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+you will get some QR code, scan it with Expo Go
