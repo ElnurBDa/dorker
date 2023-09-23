@@ -31,6 +31,12 @@ const TileOptions = [
   'xlsx',
   'doc',
   'docx',
+  'djvu',
+  'epub',
+  'jpg',
+  'png',
+  'bmp',
+  'gif',
   'pdf',
   'csv',
   'log',
@@ -85,7 +91,7 @@ export default function App() {
           placeholder="google.com"
         />
 
-        <Text style={{ color: COLORS.primary, fontSize:SIZES.large }}>Choose Extensions</Text>
+        <Text style={{ color: COLORS.primary, fontSize:SIZES.large }}><br/><br/>Choose Extensions </Text>
         <Text style={{ color: COLORS.primary_small }}>of files you want to search</Text>
         <View style={styles.container}>
           <View style={styles.tilesContainer}>
@@ -108,7 +114,7 @@ export default function App() {
           </View>
         </View>
 
-        <Text style={{ color: COLORS.primary, fontSize:SIZES.large }}>Enter keyword</Text>
+        <Text style={{ color: COLORS.primary, fontSize:SIZES.large }}><br/><br/>Enter keyword</Text>
         <Text style={{ color: COLORS.primary_small }}>if you want</Text>
         <TextInput
           style={{ color: COLORS.primary_small, backgroundColor: COLORS.background2 }}
